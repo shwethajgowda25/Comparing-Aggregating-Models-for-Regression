@@ -11,9 +11,13 @@ While the VotingRegressor is powerful for prediction, it is considered a "black 
 However, the notebook addresses this challenge by using Permutation Importance to determine which features mattered most in predicting wages. This technique works by shuffling a single feature's values and measuring the decrease in the model's performance (in this case, R² score). A large drop in performance indicates that the shuffled feature was highly important to the model's predictions. The analysis reveals the following features as the most important determinants of wages:
 
 **Education**: The number of years of education. This has the highest impact on wage prediction.
+
 **Experience**: The number of years of potential work experience.
+
 **Union**: Whether the individual works a union job.
+
 **Occupation**: The individual's job type (e.g., technical, sales, management).
+
 **Sector**: The industry in which the individual works (e.g., manufacturing, construction).
 
 The findings align with traditional economic theories on the determinants of wages, where human capital factors like education and experience are known to be primary drivers of earning potential. The importance of union membership and occupation also reflects the influence of institutional factors and labor market segmentation on wage outcomes.
